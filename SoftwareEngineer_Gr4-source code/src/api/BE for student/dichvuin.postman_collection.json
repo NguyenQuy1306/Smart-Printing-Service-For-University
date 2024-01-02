@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "8685b3f6-1740-411d-8bdd-5d9856470271",
+		"name": "dichvuin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31474114"
+	},
+	"item": [
+		{
+			"name": "DichVuIn",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "tenDangNhap",
+							"value": "sinhvien1",
+							"type": "text"
+						},
+						{
+							"key": "maMayIn",
+							"value": "MAY01",
+							"type": "text"
+						},
+						{
+							"key": "soBanIn",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "KhoGiay",
+							"value": "A4",
+							"type": "text"
+						},
+						{
+							"key": "soTrangTrongFile",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "soMatIn",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Admin/Downloads/Capstone_Project_hk231_2023_v3.pdf"
+						},
+						{
+							"key": "Pagespersheet",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "ThoiGianHenLay",
+							"value": "2023-11-29",
+							"type": "text"
+						},
+						{
+							"key": "CoSo",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "Toa",
+							"value": "H6",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/dichvuin/DichVuIn",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"dichvuin",
+						"DichVuIn"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LichSuIn",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "tenDangNhap",
+							"value": "sinhvien2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/dichvuin/LichSuIn/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"dichvuin",
+						"LichSuIn",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MuaTrang",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "tenDangNhap",
+							"value": "sinhvien2",
+							"type": "text"
+						},
+						{
+							"key": "soTrang",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "phuongThucThanhToan",
+							"value": "Momo",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/dichvuin/MuaTrang",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"dichvuin",
+						"MuaTrang"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LichSuMuaTrang",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "tenDangNhap",
+							"value": "sinhvien1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/dichvuin/LichSuMuaTrang",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"dichvuin",
+						"LichSuMuaTrang"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
